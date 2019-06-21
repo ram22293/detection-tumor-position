@@ -38,6 +38,6 @@ for directory, subdirectories, files in os.walk(root_file):
         #exel.append([name, x, y, w, h])
         w=w+x
         h=y+h
-        exel.append([root_file+name" "x, y, w, h,"1"])
+        exel.append([root_file+name,x, y, w, h,"1"])
 
 save_to_exel(exel, output_file + "/" + "voc_train.txt")
