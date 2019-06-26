@@ -30,12 +30,13 @@ for line in f:
     print(x,y)
     z=x+r
     g=y+r
+    b=x-r
+    f=y-r
     if(z>1024):
         z=1024
     if(g>1024):
         g=1024
-    b=x-r
-    f=y-r
+
     if(b<1):
         b=1
     if(f<1):
